@@ -8,6 +8,8 @@ export const AvatarContainer = styled.figure<{
     ${({ size = 11 }) =>  `
         width: ${size}rem;
         height: ${size}rem;
+        min-width: ${size}rem;
+        min-height: ${size}rem;
     `}
     overflow: hidden;
     border-radius: 50%;

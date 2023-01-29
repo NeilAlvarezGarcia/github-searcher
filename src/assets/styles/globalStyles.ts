@@ -42,6 +42,11 @@ export const GlobalStyles = createGlobalStyle`
         outline: none;
     }
 
+    a, button {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     img {
         max-width: 100%;
         object-fit: cover;
