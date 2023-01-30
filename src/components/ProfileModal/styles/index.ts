@@ -59,6 +59,7 @@ export const BodyContent = styled.div`
 export const ButtonsContainer = styled.div`
     width: 100%;
     display: flex;
+    gap: 2rem;
     align-items: center;
     justify-content: space-between;
 
@@ -74,6 +75,7 @@ export const Button = styled.a`
     background-color: ${colors.blueGrey};
     color: ${colors.white};
     font-size: 1.4rem;
+    text-align: center;
     
     ${tabletScreen(`
         background-color: ${colors.grey};

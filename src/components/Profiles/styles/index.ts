@@ -14,20 +14,20 @@ export const GridProfileContainer = styled.section`
     padding: 1rem 5rem 5rem;
     gap: 2rem;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20rem;
-    overflow-y: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 22rem;
+    overflow: auto;
     
     ${setMediaQuery('500px', `
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 49%); 
     `)}
     ${tabletScreen(`
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(3, 32%); 
     `)}
     ${smallComputerScreen(`
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(4, 23.5%); 
     `)}
     ${bigComputerScreen(`
-        grid-template-columns: repeat(5, 1fr); 
+        grid-template-columns: repeat(5, 18.5%); 
     `)}
 `
